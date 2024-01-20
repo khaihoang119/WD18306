@@ -1,0 +1,98 @@
+{
+    "categories": {
+        "vòng tay": {
+            "id": 1,
+            "name": "vòng tay"
+        },
+        "vòng cổ": {
+            "id": 2,
+            "name": "vòng cổ"
+        },
+        "nhẫn": {
+            "id": 3,
+            "name": "nhẫn"
+        },
+        "đồng hồ": {
+            "id": 4,
+            "name": "đồng hồ"
+        },
+        "bông tay": {
+            "id": 5,
+            "name": "bông tay"
+        }
+    },
+    "products":{
+        "1": {
+            "id":1,
+            "name": "Vòng tay charm bạc",
+            "categories_id": 1,
+            "price":"80.000 VND",
+            "detail": "Vòng tay charm bạc",
+            "image": "vongtaycharm.jpg"  
+        },
+        "2": {
+            "id":2,
+            "name": "Vòng cổ charm bạc",
+            "categories_id": 2,
+            "price":"80.000 VND",
+            "detail": "Vòng cổ charm bạc",
+            "image": "vongcocharm.jpg"  
+        },
+        "3": {
+            "id":3,
+            "name": "Nhẫn charm bạc",
+            "categories_id": 3,
+            "price":"80.000 VND",
+            "detail": "Nhẫn charm bạc",
+            "image": "nhancharm.jpg"  
+        },
+        "4": {
+            "id":4,
+            "name": "Đồng hồ Rolex",
+            "categories_id": 4,
+            "price":"80.000 VND",
+            "detail": "Đồng hồ Rolex",
+            "image": "donghorolex.jpg"  
+        },
+        "5": {
+            "id":5,
+            "name": "vòng tay charm bạc",
+            "categories_id": 5,
+            "price":"80.000 VND",
+            "detail": "Vòng tay charm bạc",
+            "image": "vongtay.jpg"  
+        }    
+    },
+    "orders": {
+        "1": {
+          "id": 1,
+          "customer_name": "John Doe",
+          "customer_address": "123 Main St",
+          "customer_email": "john@example.com",
+          "customer_phone_number": "555-1234",
+          "created_date": "2024-01-20",
+          "status": "chờ duyệt"
+        }
+      },
+      "order_details": {
+        "1": {
+          "order_id": 1,
+          "product_id": 1,
+          "quantity": 2,
+          "unit_price": 100
+        },
+        "2": {
+          "order_id": 1,
+          "product_id": 2,
+          "quantity": 1,
+          "unit_price": 200
+        },
+        "3": {
+          "order_id": 1,
+          "product_id": 3,
+          "quantity": 3,
+          "unit_price": 150
+        }
+      } 
+
+}
