@@ -6,6 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="demoHeading">Chào mừng đến với ví dụ DOM</h1>
+    <p id="demoParagraph">Đây là một đoạn văn bản đơn giản.</p>
+    
+    <button onclick="changeContent()">Thay đổi nội dung</button>
+
+    <script>
+        function changeContent() {
+            // Sử dụng DOM để thay đổi nội dung của các phần tử
+            document.getElementById("demoHeading").innerHTML = "Nội dung đã được thay đổi!";
+            document.getElementById("demoParagraph").innerHTML = "Đoạn văn bản đã được cập nhật.";
+        }
+    </script>
     <style></style>
     <p></p>
     <script src="script.js"></script>
