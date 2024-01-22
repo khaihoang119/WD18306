@@ -142,7 +142,7 @@
           <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
             <div class="offcanvas-header px-4 pb-0">
               <a class="navbar-brand" href="index.html">
-                <img src="images/main-logo.png" class="logo">
+                <img src="./assets/images/main-logo.png" class="logo">
               </a>
               <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
             </div>
@@ -347,7 +347,8 @@
           </div>
           <div class="swiper product-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div id="product-list"></div>
+              <!-- <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
                     <img src="./assets/images/product-item1.jpg" alt="product-item" class="img-fluid">
@@ -365,6 +366,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
@@ -383,6 +385,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
@@ -401,6 +404,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
@@ -419,6 +423,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="swiper-slide">
                 <div class="product-card position-relative">
                   <div class="image-holder">
@@ -437,6 +442,7 @@
                   </div>
                 </div>
               </div>
+               -->
             </div>
           </div>
         </div>
@@ -929,10 +935,13 @@
         </div>
       </div>
     </div>
+    
     <script src="./assets/js/jquery-1.11.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./assets/js/plugins.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="./assets/js/script.js"></script>
+   
   </body>
 </html>

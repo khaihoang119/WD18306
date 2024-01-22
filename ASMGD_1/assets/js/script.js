@@ -115,3 +115,44 @@
     }); // End of a document ready
 
 })(jQuery);
+
+// Import Axios
+const axios = require('axios');
+
+document.addEventListener("DOMContentLoaded", function () {
+  fetchProducts()
+    .then(products => displayProducts(products))
+    .catch(error => console.error("Error fetching data:", error));
+});
+
+function fetchProducts() {
+  return new Promise((resolve, reject) => {
+    // Simulate API call to get data from JSON file using Axios
+    axios.get("db.json")
+      .then(response => {
+        // Check if the response is successful (status code 200)
+        if (response.status !== 200) {
+          throw new Error(`Failed to fetch data. Status: ${response.status}`);
+        }
+
+        // Resolve the Promise with the products data
+        resolve(response.data.products);
+      })
+      .catch(error => reject(error));
+  });
+}
+
+function displayProducts(products) {
+  const productList = document.getElementById("product-list");
+  products.forEach(product => {
+    const productDiv = document.createElement("div");
+    productDiv.className = "product";
+    productDiv.innerHTML = `
+      <img src="${product.image}" alt="${product.name}">
+      <h2>${product.name}</h2>
+      <p>Price: $${product.price}</p>
+    `;
+    productList.appendChild(productDiv);
+  });
+}
+
