@@ -1,98 +1,104 @@
 {
-    "categories": {
-        "vòng tay": {
-            "id": 1,
-            "name": "vòng tay"
-        },
-        "vòng cổ": {
-            "id": 2,
-            "name": "vòng cổ"
-        },
-        "nhẫn": {
-            "id": 3,
-            "name": "nhẫn"
-        },
-        "đồng hồ": {
-            "id": 4,
-            "name": "đồng hồ"
-        },
-        "bông tay": {
-            "id": 5,
-            "name": "bông tay"
-        }
-    },
-    "products":{
-        "1": {
-            "id":1,
-            "name": "Vòng tay charm bạc",
-            "categories_id": 1,
-            "price":"80.000 VND",
-            "detail": "Vòng tay charm bạc",
-            "image": "vongtaycharm.jpg"  
-        },
-        "2": {
-            "id":2,
-            "name": "Vòng cổ charm bạc",
-            "categories_id": 2,
-            "price":"80.000 VND",
-            "detail": "Vòng cổ charm bạc",
-            "image": "vongcocharm.jpg"  
-        },
-        "3": {
-            "id":3,
-            "name": "Nhẫn charm bạc",
-            "categories_id": 3,
-            "price":"80.000 VND",
-            "detail": "Nhẫn charm bạc",
-            "image": "nhancharm.jpg"  
-        },
-        "4": {
-            "id":4,
-            "name": "Đồng hồ Rolex",
-            "categories_id": 4,
-            "price":"80.000 VND",
-            "detail": "Đồng hồ Rolex",
-            "image": "donghorolex.jpg"  
-        },
-        "5": {
-            "id":5,
-            "name": "vòng tay charm bạc",
-            "categories_id": 5,
-            "price":"80.000 VND",
-            "detail": "Vòng tay charm bạc",
-            "image": "vongtay.jpg"  
-        }    
-    },
-    "orders": {
-        "1": {
-          "id": 1,
-          "customer_name": "John Doe",
-          "customer_address": "123 Main St",
-          "customer_email": "john@example.com",
-          "customer_phone_number": "555-1234",
-          "created_date": "2024-01-20",
-          "status": "chờ duyệt"
-        }
+    "categories": [
+      {
+        "id": 1,
+        "name": "Trang sức"
       },
-      "order_details": {
-        "1": {
-          "order_id": 1,
-          "product_id": 1,
-          "quantity": 2,
-          "unit_price": 100
-        },
-        "2": {
-          "order_id": 1,
-          "product_id": 2,
-          "quantity": 1,
-          "unit_price": 200
-        },
-        "3": {
-          "order_id": 1,
-          "product_id": 3,
-          "quantity": 3,
-          "unit_price": 150
-        }
-      } 
-
-}
+      {
+        "id": 2,
+        "name": "Đồng hồ"
+      },
+      {
+        "id": 3,
+        "name": "Vòng tay"
+      },
+      {
+        "id": 4,
+        "name": "Vòng cổ"
+      },
+      {
+        "id": 5,
+        "name": "Nhẫn"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Vòng cổ vàng 18k",
+        "cate_id": 4,
+        "price": 500,
+        "detail": "Vòng cổ được làm từ vàng 18k cao cấp",
+        "image": "single-image1.png"
+      },
+      {
+        "id": 2,
+        "name": "Đồng hồ Rolex",
+        "cate_id": 2,
+        "price": 1000,
+        "detail": "Đồng hồ Rolex chính hãng",
+        "image": "single-image1.png"
+      },
+      {
+        "id": 3,
+        "name": "Vòng tay pha lê",
+        "cate_id": 3,
+        "price": 300,
+        "detail": "Vòng tay được làm từ pha lê",
+        "image": "single-image1.png"
+      },
+      {
+        "id": 4,
+        "name": "Nhẫn kim cương",
+        "cate_id": 5,
+        "price": 800,
+        "detail": "Nhẫn được làm từ kim cương tự nhiên",
+        "image": "single-image1.png"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customer_name": "Nguyễn Văn A",
+        "customer_address": "123 Đường ABC, Quận XYZ, Thành phố HCM",
+        "customer_email": "nguyenvana@gmail.com",
+        "customer_phone_number": "0123456789",
+        "created_date": "2024-01-23",
+        "status": "Đang xử lý"
+      },
+      {
+        "id": 2,
+        "customer_name": "Trần Thị B",
+        "customer_address": "456 Đường DEF, Quận UVW, Thành phố Hanoi",
+        "customer_email": "tranthib@gmail.com",
+        "customer_phone_number": "0987654321",
+        "created_date": "2024-01-24",
+        "status": "Hoàn thành"
+      }
+    ],
+    "order_details": [
+      {
+        "order_id": 1,
+        "product_id": 1,
+        "quantity": 2,
+        "unit_price": 500
+      },
+      {
+        "order_id": 1,
+        "product_id": 3,
+        "quantity": 1,
+        "unit_price": 300
+      },
+      {
+        "order_id": 2,
+        "product_id": 2,
+        "quantity": 1,
+        "unit_price": 1000
+      },
+      {
+        "order_id": 2,
+        "product_id": 4,
+        "quantity": 3,
+        "unit_price": 800
+      }
+    ]
+}  

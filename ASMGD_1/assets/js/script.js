@@ -117,42 +117,62 @@
 })(jQuery);
 
 // Import Axios
-const axios = require('axios');
+const API_URL1 = 'http://localhost:3000/categories';
+const API_URL2 = 'http://localhost:3000/products';
+const API_URL3 = 'http://localhost:3000/orders';
+const API_URL4 = 'http://localhost:3000/order_details';
+const API_URL = 'http://localhost:3000/';
 
-document.addEventListener("DOMContentLoaded", function () {
-  fetchProducts()
-    .then(products => displayProducts(products))
-    .catch(error => console.error("Error fetching data:", error));
-});
 
-function fetchProducts() {
+// Hàm để lấy dữ liệu từ tệp JSON sử dụng Axios và Promise
+function fetchData() {
   return new Promise((resolve, reject) => {
-    // Simulate API call to get data from JSON file using Axios
-    axios.get("db.json")
+    axios.get('http://localhost:3000/products')
       .then(response => {
-        // Check if the response is successful (status code 200)
+        // Kiểm tra nếu response không thành công (status code không phải 200)
         if (response.status !== 200) {
           throw new Error(`Failed to fetch data. Status: ${response.status}`);
         }
 
-        // Resolve the Promise with the products data
-        resolve(response.data.products);
+        // Resolve Promise với dữ liệu từ tệp JSON
+        resolve(response.data);
       })
       .catch(error => reject(error));
   });
 }
 
-function displayProducts(products) {
-  const productList = document.getElementById("product-list");
-  products.forEach(product => {
-    const productDiv = document.createElement("div");
-    productDiv.className = "product";
-    productDiv.innerHTML = `
-      <img src="${product.image}" alt="${product.name}">
-      <h2>${product.name}</h2>
-      <p>Price: $${product.price}</p>
-    `;
-    productList.appendChild(productDiv);
-  });
-}
+// Sử dụng Promise để lấy dữ liệu và xử lý nó
+fetchData()
+.then(data => {
+  // Xử lý dữ liệu và hiển thị nó trong HTML
+  const dataContainer = document.getElementById("product-list");
 
+  data.forEach(product => {
+    const productDiv = document.createElement("div");
+    productDiv.className = "swiper-slide";
+    productDiv.innerHTML = `
+                <div class="product-card position-relative">
+                  <div class="image-holder">
+                    <img src="./assets/images/${product.image}" alt="product-item" class="img-fluid">
+                  </div>
+                  <div class="cart-concern position-absolute">
+                    <div class="cart-button d-flex">
+                      <a href="#" class="btn btn-medium btn-black">Add to Cart<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
+                    </div>
+                  </div>
+                  <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
+                    <h3 class="card-title text-uppercase">
+                      <a href="#">${product.name}</a>
+                    </h3>
+                    <h3 class="card-title text-uppercase">
+                      <a href="#">${product.cate_id}</a>
+                    </h3>
+                    <span class="item-price text-primary">${product.price}</span>
+                  </div>
+                </div>
+              
+    `;
+    dataContainer.appendChild(productDiv);
+  });
+})
+.catch(error => console.error('Error fetching data:', error));
