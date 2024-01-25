@@ -5,10 +5,6 @@
         "name": "Trang sức"
       },
       {
-        "id": 2,
-        "name": "Đồng hồ"
-      },
-      {
         "id": 3,
         "name": "Vòng tay"
       },
@@ -24,36 +20,116 @@
     "products": [
       {
         "id": 1,
-        "name": "Vòng cổ vàng 18k",
+        "name": "Dây Chuyền Bạc Nữ Đính Đá CZ Cá Tiên",
         "cate_id": 4,
         "price": 500,
-        "detail": "Vòng cổ được làm từ vàng 18k cao cấp",
-        "image": "single-image1.png"
+        "detail": "Bạn sẽ không chỉ thêm phần xinh xắn và thanh lịch khi diện em dây chuyền bạc với thiết kế cá tiên độc đáo này, mà còn thể hiện gu thẩm mỹ rất riêng đấy nhé. Hãy tưởng tượng bạn sẽ duyên dáng và thu hút làm sao khi bạn diện chiếc vòng cổ này đi làm, đi hẹn hò hay đi chơi với bạn bè. Em nó được làm từ bạc 925 chuyên dụng , điểm nhấn bởi những viên đá Cubic Zirconia cao cấp và được chế tác hết sức tỉ mỉ bởi những nghệ nhân lành nghề. Cùng em nó ra ngoài và tỏa sáng thôi nào !!",
+        "image": "daychuyenbac_catien.jpg"
       },
       {
         "id": 2,
-        "name": "Đồng hồ Rolex",
-        "cate_id": 2,
-        "price": 1000,
-        "detail": "Đồng hồ Rolex chính hãng",
-        "image": "single-image1.png"
+        "name": "Dây Chuyền Bạc Nữ Đính Kim Cương Moissanite Tròn Cách Điệu",
+        "cate_id": 4,
+        "price": 500,
+        "detail": "Một thiết kế đầy sang trọng đến từ trang sức LiLi, hãy tưởng tượng thiết kế dây chuyền bạc hình tròn cách điệu xinh xắn này ở trên cổ bạn, khi đi làm, đi chơi hay hẹn hò, sẽ thật tuyệt vời phải không nào. Món trang sức bạc này sẽ giúp bạn thêm phần đáng yêu và thu hút đó. Em nó được làm từ bạc 92.5% nguyên chất đính kim cương Moissanite 1 carat cao cấp. Cùng em nó ra ngoài và tỏa sáng thôi nào !!",
+        "image": "daychuyenbac_kimcuong01.jpg"
       },
       {
         "id": 3,
-        "name": "Vòng tay pha lê",
-        "cate_id": 3,
-        "price": 300,
-        "detail": "Vòng tay được làm từ pha lê",
-        "image": "single-image1.png"
+        "name": "Dây Chuyền Đôi Bạc Đính Đá CZ Hình Cá Voi Và Bướm Brenna",
+        "cate_id": 4,
+        "price": 1000,
+        "detail": "Nếu bạn đang tìm kiếm một mẫu trang sức trang sức đẹp, tinh tế cho cặp đôi thì chiếc dây chuyền đôi bạc hình cá voi và bướm tình yêu này hoàn toàn thỏa mãn điều đó. Dây chuyền làm từ bạc đính đá Cubic Zirconia cao cấp với thiết kế hy vọng tình yêu đôi lứa sẽ luôn đẹp, mãi bền chặt, đi cùng nhau đến cuối con đường. Chúc các bạn hạnh phúc nhé !!",
+        "image": "daychuyendoibac_cavoi01.jpg"
       },
       {
         "id": 4,
-        "name": "Nhẫn kim cương",
+        "name": "Dây Chuyền Bạc Nữ Đính Đá CZ Cỏ 4 Lá",
+        "cate_id": 4,
+        "price": 300,
+        "detail": "Sản phẩm được làm từ bạc S999 với điểm nhấn là thiết kế hình cỏ 4 lá đính đá Cubic Zirconia cao cấp. Lá đầu tiên đại diện cho niềm tin, lá thứ hai là sự hy vọng, lá thứ ba đại diện cho tình yêu và lá thứ tư là sự may mắn. Điểm khác biệt so với các sản phẩm khác đó là ngôn ngữ thiết kế của sản phẩm được khai thác tinh tế hơn với vị trí xuất hiện đầy khéo léo. Chiếc mặt dây chuyền xinh xắn này chắc chắn sẽ mang đến vẻ đẹp, sức hút tuyệt vời cho bạn đó!",
+        "image": "daychuyenbac_co4la01.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Dây Chuyền Bạc Nữ Đính Pha Lê Swarovski Trái Tim Đại Dương",
+        "cate_id": 4,
+        "price": 800,
+        "detail": "Dây chuyền bạc mặt pha lê Swarovski trái tim đại dương LILI_295787 là một thiết kế vô cùng sang trọng và hấp dẫn đến từ trang sức LiLi. Hãy tưởng tượng viên pha lê đính trên dây chuyền bạc này sáng lấp lánh trên khuôn cổ của bạn, sẽ thật tuyệt vời đúng không nào. Món trang sức này sẽ giúp bạn thêm đáng yêu và thu hút đó. Em nó được làm từ bạc 92.5% nguyên chất, mặt pha lê Swarovski cao cấp nhập khẩu với các tùy chọn màu sắc khác nhau. Cùng em nó ra ngoài và tỏa sáng thôi nào !!",
+        "image": "daychuyenbac_traitim01.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Dây Chuyền Bạc Nữ Đính Kim Cương Moissanite Hình Gạc Nai",
+        "cate_id": 4,
+        "price": 800,
+        "detail": "1 thiết kế đầy sang trọng đến từ trang sức LiLi, hãy tưởng tượng thiết kế dây chuyền xinh xắn này ở trên cổ bạn, khi đi làm, đi chơi hay hẹn hò, sẽ thật tuyệt vời phải không nào. Món trang sức bạc này sẽ giúp bạn thêm phần đáng yêu và thu hút đó. Em nó được làm từ bạc S925 nguyên chất đính kim cương Moissanite 1 carat cao cấp. Cùng em nó ra ngoài và tỏa sáng thôi nào !!",
+        "image": "daychuyenbac_gacnai01.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Nhẫn Bạc Nữ Đính Kim Cương Moissanite Hình Bông Hồng",
         "cate_id": 5,
         "price": 800,
-        "detail": "Nhẫn được làm từ kim cương tự nhiên",
-        "image": "single-image1.png"
+        "detail": "Sản phẩm được làm từ bạc S925 mạ bạch kim, đính kim cương Moissanite 1 carat với thiết kế hình bông hoa hồng, đan xen vào sự độc đáo là một chút dịu dàng, mang đến vẻ đẹp vừa nhẹ nhàng lại vừa năng động. Dù bạn kết hợp chiếc nhẫn xinh xắn này với trang phục nào đi nữa thì đây cũng là dấu ấn thật sự tuyệt vời cho bạn!",
+        "image": "nhankc_bonghong01.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Nhẫn Bạc Nữ Mạ Vàng 18k Đính Đá CZ Hình Trái Tim",
+        "cate_id": 5,
+        "price": 800,
+        "detail": "Chiếc nhẫn được làm từ bạc 925 mạ vàng 18k với điểm nhấn là viên đá Cubic Zirconia hình trái tim. Được lấy cảm hứng từ những trái tim lãng mạn, e thẹn và ngọt ngào. Những trái tim nho nhỏ đính những viên đá Cubic Zirconia nổi bật đeo ở ngón tay bạn như được nhắc nhở rằng mình vẫn đang được yêu thương dù có đang cô đơn thế nào đi nữa. Đây là cách ghi nhớ thông điệp tình yêu rất duyên dáng, ý nhị, mà vẫn rất tươi sáng và trẻ trung.",
+        "image": "nhanbac_traitim01.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Nhẫn Bạc Nữ Đính Đá CZ Hình Bông Hoa Đào",
+        "cate_id": 5,
+        "price": 800,
+        "detail": "Chiếc nhẫn bạc S925 đính đá Cubic Zirconia với thiết kế hình bông hoa đào thống nhất khoe trọn vẻ đẹp nữ tính, rạng rỡ của người đeo nên thường được phái mạnh sử dụng làm món quà bất ngờ và vô cùng ý nghĩa cho nàng như lời gửi gắm, truyền tải những tâm tư và tình cảm chân thành dành cho nàng.",
+        "image": "nhanbac_hoadao01.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Nhẫn Bạc Nữ Đính Kim Cương Moissanite Elfleda",
+        "cate_id": 5,
+        "price": 800,
+        "detail": "Chiếc nhẫn cao cấp được làm từ bạc S925 đính viên kim cương Moissanite 1 carat. Nó sẽ mang đến cho bạn sự sang trọng và quý phái. Dù trong hoàn cảnh nào: đi làm, đi dự tiệc hay đi chơi với bạn bè, đôi tay của bạn sẽ cực kỳ nổi bật đấy.",
+        "image": "nhanbac_elfleda01.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Lắc Tay Bạc Cặp Đôi Tình Yêu Forever Love",
+        "cate_id": 3,
+        "price": 800,
+        "detail": "Lấy cảm hứng từ vòng tròn vô cực, tượng trưng cho vẻ đẹp bền chặt vĩnh cửu của tình yêu đôi lứa, lắc bạc LILI_986852  được thiết kế một cách tinh xảo, với chất liệu bạc S925 cao cấp, sang trọng. Món trang sức không chỉ giúp bạn trông thật thanh lịch và duyên dáng, mà còn như như một tín hiệu của tình yêu và hạnh phúc. Chúc bạn luôn hạnh phúc bên gia đình và người thương !!",
+        "image": "vongtay_foreverlove01.jpg"
+      },{
+        "id": 12,
+        "name": "Lắc Tay Bạc Nữ Đính Pha Lê Swarovski Trái Tim Của Biển",
+        "cate_id": 3,
+        "price": 800,
+        "detail": "Sản phẩm được làm từ bạc 925 cao cấp được đính kèm viên pha lê của hãng đá quý nổi tiếng thế giới Swarovski đến từ nước Áo. Là một trong những mẫu lắc tay đẹp nhất, với thiết kế là lựa chọn hoàn hảo cho bạn trong những trang phục dự tiệc trang trọng. Bạn có muốn cùng nó hóa trang thành nàng công chúa lộng lẫy không nào?",
+        "image": "vongtay_traitim01.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Lắc Tay Bạc Nữ Mạ Bạch Kim Đính Đá CZ Cỏ 4 Lá",
+        "cate_id": 3,
+        "price": 800,
+        "detail": "Chiếc lắc được làm từ bạc 925 mạ bạch kim đính 2 viên đá Cubic Zirconia được chế tác tỉ mỉ. Với thiết kế hình cỏ bốn lá thống nhất khoe trọn vẻ đẹp nữ tính, rạng rỡ của người đeo nên thường được phái mạnh sử dụng làm món quà bất ngờ và vô cùng ý nghĩa cho nàng như lời gửi gắm, truyền tải những tâm tư và tình cảm chân thành dành cho nàng.",
+        "image": "vongtay_co4la01.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Lắc Tay Bạc Nữ Đính Đá CZ Hình Trái Tim Love In Heart",
+        "cate_id": 3,
+        "price": 800,
+        "detail": "Sản phẩm được làm từ bạc S925 mạ bạch kim với điểm nhấn là các viên đá Cubic Zirconia hình trái tim bao quanh. Những viên đá được thiết kế có thể chuyển động lắc lư theo nhịp bước chân toát lên vẻ quyến rũ và cuốn hút cho phái đẹp. Chiếc lắc thích hợp với bạn gái khi đi chơi, xuống phố và thậm chí đi làm nữa. Hãy kết hợp với một bộ trang phục yêu thích và tự tin sải bước bạn nhé. Đặc biệt, việc lựa chọn quà tặng bằng những món đồ trang sức này sẽ khiến người thân yêu của bạn thực sự thích thú và cảm thấy mình được quan tâm.",
+        "image": "vongtay_lovein.jpg"
       }
+  
     ],
     "orders": [
       {
