@@ -45,6 +45,7 @@ class Post extends APICaller {
         super(baseUrl);
         // this.posts = posts;
         this.postId = postId;
+        this.endpoint = 'post';
     }
     async getAll() {
         try {
