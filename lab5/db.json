@@ -1,19 +1,21 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "posts": [
+        {
+            "id": "1",
+            "title": "Đây là bài viết thứ nhất."
+        },
+        {
+            "id": "2",
+            "title": "Đây là bài viết thứ 2."
+        }
+    ],
+    "comments": [
+        {
+            "text": "I love this blog! Keep up the good work 1."
+
+        },
+        {
+            "text":"I love this blog! Keep up the good work 2."
+        }
+    ]
 }
