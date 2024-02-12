@@ -1,6 +1,6 @@
 // Import Axios
 
-const API_URL = 'http://localhost:3000/';
+export const API_URL = 'http://localhost:3000/';
 
 
 // Hàm để lấy dữ liệu từ tệp JSON sử dụng Axios và Promise
