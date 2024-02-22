@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <header>
         <!-- place navbar here -->
     </header>
@@ -25,7 +26,11 @@
             <form action="" id="formData" method="post" onsubmit="event.preventDefault(); createProduct(this);">
                 <div class="mb-3 form-group">
                     <lable>ID</lable>
-                    <input type="text" class="form-control" disabled>
+                    <select name="cate_id"  class="form-control">
+                        <option  value="3">Lắc tay</option>
+                        <option  value="4">Dây chuyền</option>
+                        <option  value="5">Nhẫn</option>
+                    </select>
                 </div>
                 <div class="mb-3 form-group">
                     <lable>Tên sản phẩm</lable>
