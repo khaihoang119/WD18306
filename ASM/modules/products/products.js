@@ -1,7 +1,7 @@
 export function products(data,dataContainer) {
 	return data.forEach(product => {
 		const productDiv = document.createElement('div');
-		productDiv.className = 'col-lg-4 col-md-6 col-sm-12 pb-1';
+		productDiv.className = 'col-lg-3 col-md-6 col-sm-12 pb-1';
 		productDiv.innerHTML = `
     
     <div class="card product-item border-0 mb-4">
@@ -15,8 +15,8 @@ export function products(data,dataContainer) {
           </div>
       </div>
       <div class="card-footer d-flex justify-content-between bg-light border">
-          <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-          <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+          <a href="" class="btn btn-sm text-dark p-2"><i class="fas fa-eye text-primary mr-1"></i>Xem chi tiết</a>
+          <a href="" class="btn btn-sm text-dark p-2"><i class="fas fa-shopping-cart text-primary mr-1"></i>Thêm vào giỏ</a>
       </div>
     </div>
     
