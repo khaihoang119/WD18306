@@ -1,16 +1,20 @@
 import * as allproducts from './modules/products/all_products.js';
 import * as ring_products from './modules/products/ring_products.js';
 import * as form_products from './modules/products/products.js';
+import * as necklace_products from './modules/products/necklace_products.js';
+import * as bracelet_products from './modules/products/bracelet_products.js';
 //lấy và in ra tất cả sản phẩm
 allproducts.fetchData()
 	.then(data => {
 		// Xử lý dữ liệu và hiển thị nó trong HTML
-		const dataContainer = document.getElementById('necklace-product');
+		const dataContainer = document.getElementById('all-product');
 		dataContainer.innerHTML = '';
+		let count = 0; //Biến đếm số lần lặp
 		data.forEach(product => {
-			const productDiv = document.createElement('div');
-			productDiv.className = 'swiper-slide';
-			productDiv.innerHTML = `
+			if (count < 8) {
+				const productDiv = document.createElement('div');
+				productDiv.className = 'swiper-slide';
+				productDiv.innerHTML = `
 <div class="swiper-slide">
 <div class="product-card position-relative">
   <div class="image-holder">
@@ -31,7 +35,9 @@ allproducts.fetchData()
 </div>
           
 `;
-			dataContainer.appendChild(productDiv);
+				dataContainer.appendChild(productDiv);
+				count++; //Tăng biến đếm
+			}
 		});
 	})
 	.catch(error => console.error('Error fetching data:', error));
@@ -42,6 +48,50 @@ ring_products.fetchData()
 		// Xử lý dữ liệu và hiển thị nó trong HTML
 		const dataContainer = document.getElementById('ring-product');
 		dataContainer.innerHTML = '';
-		form_products.products(data,dataContainer);
+		form_products.products(data, dataContainer);
 	})
 	.catch(error => console.error('Error fetching data:', error));
+
+//Lấy và in ra sản phẩm vòng cổ
+necklace_products.fetchData()
+	.then(data => {
+		// Xử lý dữ liệu và hiển thị nó trong HTML
+		const dataContainer = document.getElementById('necklace-product');
+		dataContainer.innerHTML = '';
+		form_products.products(data, dataContainer);
+	})
+	.catch(error => console.error('Error fetching data:', error));
+//Lấy và in ra sản phẩm vòng tay
+bracelet_products.fetchData()
+	.then(data => {
+		// Xử lý dữ liệu và hiển thị nó trong HTML
+		const dataContainer = document.getElementById('bracelet-product');
+		dataContainer.innerHTML = '';
+		form_products.products(data, dataContainer);
+	})
+	.catch(error => console.error('Error fetching data:', error));
+
+//Đếm số lượng sản phẩm
+fetch('../db.json')
+	.then(response => {
+		if (!response.ok) {
+			throw new Error('Network response was not ok');
+		}
+		return response.json();
+	})
+	.then(data => {
+		// Lấy mảng "products"
+		const productsArray = data.products;
+
+		// Đếm số lượng phần tử trong mảng
+		const numberOfProducts = productsArray.length;
+
+		// Hiển thị số lượng mảng
+		const totalProducts = document.getElementById('product_total');
+		totalProducts.innerHTML  = numberOfProducts;
+		// console.log('Số lượng sản phẩm:', numberOfProducts);
+
+	})
+	.catch(error => {
+		console.error('There was a problem with your fetch operation:', error);
+	});
