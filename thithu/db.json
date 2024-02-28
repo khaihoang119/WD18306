@@ -1,0 +1,23 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Áo thun",
+        "price": 20,
+        "likes":2
+      },
+      {
+        "id": 2,
+        "name": "Quần jean",
+        "price": 30,
+        "likes":5
+      },
+      {
+        "id": 3,
+        "name": "Giày sneakers",
+        "price": 50,
+        "likes":4
+      }
+    ]
+  }
+  
