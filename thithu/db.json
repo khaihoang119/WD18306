@@ -1,23 +1,28 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Áo thun",
-        "price": 20,
-        "likes":2
-      },
-      {
-        "id": 2,
-        "name": "Quần jean",
-        "price": 30,
-        "likes":5
-      },
-      {
-        "id": 3,
-        "name": "Giày sneakers",
-        "price": 50,
-        "likes":4
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1709171035493,
+      "name": "áo ba lỗ",
+      "likes": 12,
+      "price": 50
+    },
+    {
+      "id": 1709171063432,
+      "name": "áo ba lỗ",
+      "likes": 12,
+      "price": 12
+    },
+    {
+      "id": 1709171070087,
+      "name": "áo ba lỗ",
+      "likes": 12,
+      "price": 12
+    },
+    {
+      "id": 1709171083370,
+      "name": "áo ba lỗ",
+      "likes": 1,
+      "price": 50
+    }
+  ]
+}
