@@ -1,16 +1,16 @@
 {
   "products": [
     {
-      "name": "áo ba lỗ",
-      "price": 2000,
-      "type": "Áo",
-      "id": "4"
-    },
-    {
-      "id": 1709184965788,
+      "id": "1709184965788",
       "name": "áo thun nam",
       "price": 5,
       "type": "Áo"
+    },
+    {
+      "id": 1709188144895,
+      "name": "ao h",
+      "price": 12,
+      "type": "Quần"
     }
   ]
 }
